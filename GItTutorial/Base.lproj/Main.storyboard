@@ -16,15 +16,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lG5-B4-QyU">
-                                <rect key="frame" x="105" y="269" width="111" height="30"/>
+                                <rect key="frame" x="104.5" y="269" width="111" height="30"/>
                                 <state key="normal" title="Just an example"/>
                                 <connections>
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pxw-Gz-HTB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7V-dL-sV7">
+                                <rect key="frame" x="66" y="125" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="W7V-dL-sV7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4jk-ne-pNR"/>
+                            <constraint firstItem="W7V-dL-sV7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="QlO-gv-3K6"/>
                             <constraint firstItem="lG5-B4-QyU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="j21-KU-kTP"/>
                             <constraint firstItem="lG5-B4-QyU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="l3X-hO-KXI"/>
                         </constraints>
